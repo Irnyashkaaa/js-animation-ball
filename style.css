@@ -1,0 +1,18 @@
+#field {
+  height: 400px;
+  border-bottom: 3px black groove;
+  position: relative;
+}
+
+#ball {
+  position: absolute;
+  cursor: pointer;
+}
+
+#square {
+  width: 40px;
+  height: 40px;
+  border: black 1px solid;
+  z-index: 10;
+  background-color: red;
+}
